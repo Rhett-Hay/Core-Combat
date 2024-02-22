@@ -229,7 +229,7 @@ PrefabInstance:
     - target: {fileID: 4168832251001895114, guid: b41b0cbac29658742943619cf7ff9da2,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.21
+      value: 4.0406885
       objectReference: {fileID: 0}
     - target: {fileID: 4168832251001895114, guid: b41b0cbac29658742943619cf7ff9da2,
         type: 3}
@@ -350,12 +350,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   chaseDistance: 5
-  suspicionTime: 5
+  suspicionTime: 7
   patrolPath: {fileID: 2517870148799636589, guid: aa3cf940a80247841ae25b9499a2b4a0,
     type: 3}
   waypointTolerance: 1.9
-  waypointDwellTime: 3
-  patrolSpeedPercentage: 0.505
 --- !u!4 &5024492724264739919 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4168832251001895114, guid: b41b0cbac29658742943619cf7ff9da2,
